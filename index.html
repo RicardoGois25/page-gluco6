@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Blood Sugar Control | Scientific Solution</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Key to Diabetics</h1>
+            <p>Natural Blood Sugar Control in 30 Days or Less!</p>
+        </header>
+        
+        <section class="hero">
+            <h2>Stop Suffering from Sugar Spikes!</h2>
+            <p>The #1 Expert-Recommended Natural Method for Type 2 Diabetics and Pre-Diabetics</p>
+            
+            <div class="benefits">
+                <div class="benefit-item">
+                    <h3>Stabilizes Glucose</h3>
+                    <p>No aggressive medications</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Reduces Fatigue</h3>
+                    <p>And the cravings for sweets</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Scientific Ingredients</h3>
+                    <p>With +15 Clinical Studies</p>
+                </div>
+            </div>
+            
+            <a href="https://3508aew8mnei7m58vpmlgpazeo.hop.clickbank.net" class="cta-button">I WANT MY DISCOUNTED PACKAGE NOW!</a>
+        </section>
+        
+        <section class="problem-solution">
+            <div class="problem">
+                <h2>Have you tried?</h2>
+                <ul>
+                    <li>Expensive medicines with side effects</li>
+                    <li>Impossible diets to follow</li>
+                    <li>Supplements that don't deliver results</li>
+                </ul>
+            </div>
+            
+            <div class="solution">
+                <h2>The Solution?</h2>
+                <p>A natural advancement that:</p>
+                <ul>
+                    <li>Activates GLUT-4 Receptors (Scientific Key)</li>
+                    <li>Combines 6 Super Ingredients (Cinnamon, Chromium and More)</li>
+                    <li>60-Day Money Back Guarantee</li>
+                </ul>
+            </div>
+        </section>
+        <!--
+        <section class="offer">
+            <h2>Oferta Especial por Tempo Limitado!</h2>
+            <div class="timer">Oferta termina em: <span id="countdown">59:59</span></div>
+            <p>Frete Grátis + 2 Bônus Exclusivos (Guia Anti-Neuropatia + Receitas Low-Carb)</p>
+            
+            <div class="packages">
+                <div class="package">
+                    <h3>1 Mês</h3>
+                    <p>Teste Inicial</p>
+                    <p><del>R$ 197</del></p>
+                    <h4>R$ 97</h4>
+                    <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-button">COMPRAR AGORA</a>
+                </div>
+                
+                <div class="package popular">
+                    <div class="popular-tag">MAIS POPULAR</div>
+                    <h3>3 Meses</h3>
+                    <p>Melhor Custo-Benefício</p>
+                    <p><del>R$ 591</del></p>
+                    <h4>R$ 247</h4>
+                    <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-button">COMPRAR AGORA</a>
+                </div>
+                
+                <div class="package">
+                    <h3>6 Meses</h3>
+                    <p>Melhor Resultado</p>
+                    <p><del>R$ 1.182</del></p>
+                    <h4>R$ 397</h4>
+                    <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-button">COMPRAR AGORA</a>
+                </div>
+            </div>
+        </section>
+        -->
+        <section class="guarantee">
+            <h2>Satisfaction Guarantee</h2>
+            <p>If within 60 days you no longer feel more energy and see improvements in your exams, we will refund 100% of your money, NO questions asked!</p>
+        </section>
+        
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Does it work for type 1 diabetes?</div>
+                <p>Focused on type 2/pre-diabetes, but many type 1s report benefits.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">When do I see results?</div>
+                <p>87% of users notice a difference in 2-4 weeks.</p>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is it safe?</div>
+                <p>100% natural, no reported side effects.</p>
+            </div>
+        </section>
+        
+        <section class="footer-cta">
+            <h2>Don't put it off!</h2>
+            <div class="stock-counter">Last 12 units in stock!</div>
+            <p>This exclusive offer may disappear at any time.</p>
+            <a href="https://3508aew8mnei7m58vpmlgpazeo.hop.clickbank.net" class="cta-button">GET YOURS BEFORE IT'S GONE!</a>
+        </section>
+    </div>
+    
+    <script>
+        // Countdown Timer
+        function startTimer(duration, display) {
+            let timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+                
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+                
+                display.textContent = minutes + ":" + seconds;
+                
+                if (--timer < 0) {
+                    timer = duration;
+                }
+            }, 1000);
+        }
+        
+        window.onload = function () {
+            const fiveMinutes = 60 * 60;
+            const display = document.querySelector('#countdown');
+            startTimer(fiveMinutes, display);
+        };
+        
+        // Stock Counter Animation
+        let stock = 12;
+        const stockElement = document.querySelector('.stock-counter');
+        
+        setInterval(function() {
+            if (stock > 3) {
+                stock--;
+                stockElement.textContent = `Últimas ${stock} unidades em estoque!`;
+            }
+        }, 60000);
+    </script>
+</body>
+</html>
